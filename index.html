@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>フォームの送信先（メールアドレス）を指定する</title>
+    <script Language="JavaScript"><!--
+    function set(sObj)
+    {
+      str = sObj.options[sObj.selectedIndex].value;
+      document.myFORM.action = "mailto:" + str;
+    }
+    // --></script>
+    </head>
+    <body>
+    <form name="myFORM" method="post" action="sc1c7qf5aq7p@sute.jp" enctype="text/plain">
+    <select onChange="set(this)">
+    <option value="aa@xyz.ne.jp">aa@xyz.ne.jp
+    <option value="ab@xyz.ne.jp">ab@xyz.ne.jp
+    <option value="openspc@po.shiojiri.ne.jp">openspc@po.shiojiri.ne.jp
+    </select>
+    <br>
+    <input type="text" value="test" NAME="data"><br>
+    <input type="submit" VALUE="送信"><br>
+    </form>
+    </body>
+</html>
