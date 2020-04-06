@@ -1,25 +1,29 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
   <head>
-    <title>フォームの送信先（メールアドレス）を指定する</title>
-    <script Language="JavaScript"><!--
-    function set(sObj)
-    {
-      str = sObj.options[sObj.selectedIndex].value;
-      document.myFORM.action = "mailto:" + str;
-    }
-    // --></script>
-    </head>
-    <body>
-    <form name="myFORM" method="post" action="sc1c7qf5aq7p@sute.jp" enctype="text/plain">
-    <select onChange="set(this)">
-    <option value="aa@xyz.ne.jp">sc1c7qf5aq7p@sute.jp
-    <option value="ab@xyz.ne.jp">ab@xyz.ne.jp
-    <option value="openspc@po.shiojiri.ne.jp">openspc@po.shiojiri.ne.jp
-    </select>
-    <br>
-    <input type="text" value="test" NAME="data"><br>
-    <input type="submit" VALUE="送信"><br>
+    <meta charset="utf-8" />
+    <script type="text/javascript" charset="UTF-8"></script>
+  </head>
+  <body>
+    <p>
+      <h2>メール送信フォーム</h2>
+    </p>
+    <form action="./confirm.php" method="post">
+      <p>
+        送信先
+      </p>
+      <input type="text" name="to">
+      <p>
+        メールのタイトル
+      </p>
+      <input type="text" name="title">
+      <p>
+        本文
+      </p>
+      <textarea name="content" cols="50" rows="5"></textarea>
+      <p>
+        <input type="submit" name="send" value="送信">
+      </p>
     </form>
-    </body>
+  </body>
 </html>
