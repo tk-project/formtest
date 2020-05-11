@@ -446,7 +446,7 @@ nav {
 
 @media screen and (max-width: 420px) {
   .top-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -468,7 +468,8 @@ nav {
 @media screen and (max-width: 420px) {
   .top-sub1,
   .top-sub2 {
-    font-size: 2.6rem;
+    font-size: 2.5rem;
+    margin-top: 16px;
   }
 }
 
