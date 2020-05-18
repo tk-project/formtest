@@ -412,10 +412,12 @@ nav {
   background-size: cover;
   background-position: center center;
   height: 600px;
+  margin-top: 80px;
 }
 
 @media screen and (max-width: 767px) {
   .slide-img {
+    margin-top: 54.88px;
     height: 450px;
   }
 }
@@ -513,6 +515,7 @@ nav {
 .service-back {
   background-image: url(../img/markus-winkler-ilUD0RmdsnA-unsplash.jpg);
   background-size: cover;
+  background-position: center center;
   width: 70%;
   height: 500px;
   position: relative;
@@ -536,6 +539,8 @@ nav {
 }
 
 .service-img {
+  background-size: cover;
+  background-position: center center;
   background-image: url(../img/matthew-fournier-G971e4EFKtA-unsplash.jpg);
   position: absolute;
   top: -100px;
@@ -674,6 +679,8 @@ nav {
 }
 
 .staff-img {
+  background-size: cover;
+  background-position: center center;
   width: 70%;
   height: 70%;
   position: absolute;
@@ -784,6 +791,11 @@ nav {
 }
 
 /* staff interviewの写真の背景色 */
+.staff-back {
+  background-size: cover;
+  background-position: center center;
+}
+
 .staff-back::after {
   content: "";
   background-color: rgba(139, 250, 148, 0.5);
@@ -796,6 +808,11 @@ nav {
 }
 
 /* work life barranceの写真の背景色 */
+.work-back {
+  background-size: cover;
+  background-position: center center;
+}
+
 .work-back::after {
   content: "";
   background-color: rgba(145, 234, 245, 0.5);
@@ -849,6 +866,8 @@ nav {
 
 /* 集合写真 */
 .group-photo {
+  background-size: cover;
+  background-position: center center;
   text-align: center;
   margin-top: 40px;
 }
