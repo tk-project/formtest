@@ -955,8 +955,7 @@ nav {
 @media screen and (max-width: 767px) {
   .philosophy-item {
     font-size: 1.6rem;
-    -moz-text-align-last: left;
-    text-align-last: left;
+    text-align: left;
   }
 }
 
